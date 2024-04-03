@@ -1,0 +1,12 @@
+Meow Bot:
+
+Meow Bot is a Rasa-powered chatbot designed to provide users with interesting cat facts, engage in cat-related conversation, and offer responses to various user interactions.
+
+Features:
+
+Cat Facts: Ask Meow Bot for a cat fact and it will fetch a random cat fact for you.
+Greeting: Meow Bot greets users with a friendly "Meow!" and is ready to assist them.
+Bot Identity: Ask Meow Bot about its identity, and it will proudly proclaim itself as a cat bot.
+Emotional Responses: Meow Bot responds appropriately to expressions of happiness and sadness from users.
+
+ENJOY! :)
