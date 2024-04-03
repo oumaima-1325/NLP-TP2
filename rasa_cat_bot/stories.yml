@@ -1,0 +1,34 @@
+version: "3.1"
+
+stories:
+  - story: Greeting
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: Farewell
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Cat Talk
+    steps:
+      - intent: cat_talk
+      - action: utter_meow
+
+  - story: Cat Fact
+    steps:
+      - intent: cat_fact
+      - action: action_cat_fact
+  - story: Happy Response
+    steps:
+      - intent: happy
+      - action: utter_happy_response
+  - story: Sad Path
+    steps:
+      - intent: express_sadness
+      - action: utter_sad_response
+  - story: Bot Identity
+    steps:
+      - intent: bot_identity
+      - action: utter_bot_identity

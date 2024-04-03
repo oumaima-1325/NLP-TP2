@@ -1,0 +1,47 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey
+      - Meow
+
+  - intent: goodbye
+    examples: |
+      - Bye
+      - Goodbye
+      - See you later
+      - Meow you later
+
+  - intent: cat_talk
+    examples: |
+      - What's up?
+      - How are you?
+      - Meow
+
+  - intent: cat_fact
+    examples: |
+      - Tell me a cat fact
+      - I want to know more about cats
+      - Give me a cat fact
+  - intent: happy
+    examples: |
+      - I'm feeling happy
+      - I'm so happy
+      - Yay, I'm happy
+      - Feeling great today
+      - I feel amazing
+  - intent: bot_identity
+    examples: |
+      - Who are you?
+      - What are you?
+      - What's your identity?
+      - Tell me about yourself
+  - intent: express_sadness
+    examples: |
+      - I'm feeling sad
+      - I'm not feeling well
+      - I feel down
+      - I'm upset

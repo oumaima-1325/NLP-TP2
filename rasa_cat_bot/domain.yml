@@ -1,0 +1,29 @@
+version: "3.1"
+intents:
+  - greet
+  - goodbye
+  - cat_talk
+  - cat_fact
+  - bot_identity
+  - express_sadness
+  - happy
+
+responses:
+  utter_greet:
+    - text: "Meow! i wonder what random meow fact you'll get today (hint : write cat fact )"
+  utter_happy_response:
+    - text: "meow, that's great to meow!you are a cute cat"
+  utter_goodbye:
+    - text: "Meow you later! Take care."
+  utter_sad_response:
+    - text: "I'm sorry to hear that. Remember, you can always talk to me if you need someone to listen. Meow."
+  utter_meow:
+    - text: "Meow meow! I'm just chilling, what about you?"
+  utter_bot_identity:
+    - text: "I'm a cat bot! Meow!"
+actions:
+  - action_cat_fact
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

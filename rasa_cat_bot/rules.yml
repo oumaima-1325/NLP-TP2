@@ -1,0 +1,22 @@
+version: "3.1"
+
+rules:
+  - rule: Activate cat fact
+    steps:
+      - intent: cat_fact
+      - action: action_cat_fact
+
+  - rule: Respond to happiness with something cute
+    steps:
+      - intent: happy
+      - action: utter_happy_response
+
+  - rule: Respond to bot identity query
+    steps:
+      - intent: bot_identity
+      - action: utter_bot_identity
+
+  - rule: Respond to sadness
+    steps:
+      - intent: express_sadness
+      - action: utter_sad_response
